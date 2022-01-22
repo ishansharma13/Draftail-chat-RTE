@@ -4,7 +4,7 @@ import React from "react";
  */
 const Icon = ({ icon, title, className }) => {
   let children;
-
+  console.log("Here");
   if (typeof icon === "string") {
     if (icon.includes("#")) {
       children = <use xlinkHref={icon} />;
@@ -17,7 +17,7 @@ const Icon = ({ icon, title, className }) => {
   } else {
     return icon;
   }
-
+  // console.log(children);
   return (
     
     <svg

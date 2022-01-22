@@ -728,7 +728,7 @@ select[disabled] {
 .Draftail-ToolbarButton__label {
   display: inline-block;
   vertical-align: middle;
-  height: 1em;
+  height: 1.5em;
 }
 
 button[data-draftail-balloon] {
@@ -1311,4 +1311,9 @@ div.modal button {
   padding-top: 2px;
   padding-bottom: 2px;
 
+}
+.file-upload{
+  height: 100px;
+  line-height: 100px;
+  color: white;
 }
