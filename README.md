@@ -1,6 +1,12 @@
 # Draftail-chat-RTE
 A slack like chat container built using draftail and draft-js plugins
 
+To set it up:
+  1. clone this repo
+  2. run npm install
+  3. npm start
+
+
 Following Features are Present:
   1. Shortcut detection for Bold, Italic, Underline, Code, etc.
   2. Tooltip for the top Toolbar showing the shortcuts
