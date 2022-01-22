@@ -89,7 +89,7 @@ class MediaBlock extends Component{
         x = <img className="MediaBlock__img" src={src} alt={label} width="256" />;
     }
     else{
-        x = <span className="MediaBlock__img"><img hidden="true" src={src} alt={label} width="256"/><span className="file-upload">{label}</span></span>;
+        x = <span className="MediaBlock__img"><img hidden={true} src={src} alt={label} width="256"/><span className="file-upload">{label}</span></span>;
     }
     return (
       <button

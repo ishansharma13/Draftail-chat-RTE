@@ -12,6 +12,7 @@ class ImageBlock extends Component {
     super(props);
 
     this.changeAlt = this.changeAlt.bind(this);
+
   }
 
   /* :: changeAlt: (e: Event) => void; */
@@ -27,12 +28,13 @@ class ImageBlock extends Component {
       onChange(DraftUtils.updateBlockEntity(editorState, block, data));
     }
   }
+ 
 
   render() {
     const { blockProps } = this.props;
-    const { entity, onEditEntity, onRemoveEntity } = blockProps;
+    const { entity,onEditEntity,onRemoveEntity} = blockProps;
     const { src, alt,type } = entity.getData();
-
+    
     return (
       <MediaBlock {...this.props} type={type} src={src} label={alt || ""} isLoading={false}>
         <label className="ImageBlock__field">

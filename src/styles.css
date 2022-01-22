@@ -751,13 +751,14 @@ button[data-draftail-balloon] {
 [data-draftail-balloon]::after {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgba(17, 17, 17, 0.9);
+  background: #defff7;
   border-radius: 4px;
-  color: #fff;
+  color: #333;
   content: attr(aria-label);
   padding: 0.5em 1em;
   white-space: pre;
   font-size: 0.875em;
+  border: 1px solid #333;
 }
 [data-draftail-balloon]:hover::before, [data-draftail-balloon]:hover::after {
   opacity: 1;
